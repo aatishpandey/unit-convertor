@@ -1,0 +1,159 @@
+@import url(/stylesheets/reset.css);
+
+
+/* font styles */
+.xl-bold{
+    font-weight: 800;
+}
+
+.l-bold{
+    font-weight: 600;
+}
+
+.l{
+    font-size: 1.2rem;
+}
+
+.xl{
+    font-size: 2.0rem;
+    font-weight: 800;
+}
+
+/* button style */
+.btn{
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    max-width: fit-content;
+    background-color: #FFFFFF;
+}
+
+.btn:hover{
+    background-color: #F4F4F4;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 85%;
+    width: 30%;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box-one{
+    width: 100%;
+    background-color: #6943FF;
+    height: 40%;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 5% 0;
+}
+
+.value-container{
+    /* border: 2px solid #B295FF; */
+    background:none;
+    border: none;
+    width: 100%;
+    outline: none;
+    caret-color: transparent;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10%;
+}
+
+/* hide input type number arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.box-two{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.unit-container{
+    width: 80%;
+    background-color: #FFFFFF;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.unit-head{
+    color: #5A537B;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.value-converted{
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+
+/* media queries */
+@media screen and (max-width: 850px){
+    .container{
+        width:35%;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .container{
+        width:40%;
+    }
+
+    *{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        width:60%;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    *{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 250px){
+    *{
+        font-size: 0.6rem;
+    }
+}
