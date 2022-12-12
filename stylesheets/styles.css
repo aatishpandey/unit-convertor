@@ -51,6 +51,8 @@ body{
     flex-direction: column;
     text-align: center;
     overflow: hidden;
+    border:1px solid #5335cc;
+    border-radius: 10px;
 }
 
 .box-one{
@@ -94,7 +96,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .unit-container{
-    width: 80%;
+    width: 85%;
     background-color: #FFFFFF;
     height: 20%;
     display: flex;
@@ -112,6 +114,7 @@ input[type=number]::-webkit-outer-spin-button {
 .value-converted{
     width: 100%;
     font-size: 0.9rem;
+    color: #353535;
 }
 
 
